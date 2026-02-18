@@ -1,0 +1,5 @@
+sample	transcript_per_barcode_min	transcript_per_barcode_Q1	transcript_per_barcode_median	transcript_per_barcode_mean	transcript_per_barcode_Q3	transcript_per_barcode_max	transcript_per_barcode_IQR	transcript_per_barcode_stdev	transcript_per_barcode_CV	transcript_per_barcode_rIQR	RPIB	transcript_per_barcode_state
+X081460_08_1_0.05	952	1360.25	1946.5	2846.884	3095.5	56799	1735.25	4039.873	1.419	0.891	6767.276	before downsampling
+X081460_08_2_0.05	1057	1750.5	2491.5	3192.838	4108	13431	2357.5	2060.772	0.645	0.946	6818.228	before downsampling
+X081460_08_1_0.05	166	250.75	346.5	509.592	559	10035	308.25	717.515	1.408	0.89	1000	after downsampling
+X081460_08_2_0.05	169	295	420	530.01	677.75	2209	382.75	341.278	0.644	0.911	1000	after downsampling

@@ -1,0 +1,15 @@
+count_table_folders: /network/lustre/dtlake01/scipio/scripts/github_clone_repo/eval_tools/matrix_downsampling_tool/test_result/input/
+downsampling_folders: /network/lustre/dtlake01/scipio/scripts/github_clone_repo/eval_tools/matrix_downsampling_tool/test_result/input/
+whitelist_folders: /network/lustre/dtlake01/scipio/scripts/github_clone_repo/eval_tools/matrix_downsampling_tool/test_result/input/
+
+downsampling_prefix: _ds_merged_raw.txt
+whitelist_prefix: _auto_whitelist_distance.txt
+count_prefix: _merged_counts.tsv
+
+samples: [X081460_08_1_0.05, X081460_08_2_0.05]
+
+output_folder: /network/lustre/dtlake01/scipio/scripts/github_clone_repo/eval_tools/matrix_downsampling_tool/test_result/output/
+output_prefix: _ds_1000
+add_RPIB_prefix: 1
+
+desired_RPIB: 1000

@@ -1,0 +1,15 @@
+count_table_folders: [/network/lustre/dtlake01/scipio/projects/OUTPUT_degelation_2/merged_count_table/, /network/lustre/dtlake01/scipio/projects/EVAL_BENCHMARK_1/merged_count_table/]
+downsampling_folders: [/network/lustre/dtlake01/scipio/projects/OUTPUT_degelation_2/merged_ds_raw/, /network/lustre/dtlake01/scipio/projects/EVAL_BENCHMARK_1/merged_ds_raw/]
+whitelist_folders: [/network/lustre/dtlake01/scipio/projects/OUTPUT_degelation_2/whitelist_auto_distance/, /network/lustre/dtlake01/scipio/projects/EVAL_BENCHMARK_1/whitelist_auto_distance/]
+
+count_prefix: _merged_counts.tsv
+downsampling_prefix: _ds_merged_raw.txt
+whitelist_prefix: _auto_whitelist_distance.txt
+
+samples: [X081455-78-V1_1_S5, X081455-78-V1_2_S6, X081455-78-1_5M1_S7, X081455-78-1_5M2_S8, X081455-78-6M1_S9, SM-SSS-2, AG-SSS-2, controle_1]
+
+output_folder: /home/stanislas.lipin/ownCloud/R&D Scipio/BioInfo/gitlab_scripts/stanislas/matrix_downsampling_tool/test_result_output/
+output_prefix: _ds_min
+add_RPIB_prefix: 0
+
+desired_RPIB: 40000
